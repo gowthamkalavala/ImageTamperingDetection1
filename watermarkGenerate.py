@@ -1,8 +1,7 @@
-def generate(w,j):
+def generate(w, j):
     width = int(512 * w)
     height = int(512 * j)
     return (width, height)
-
 
 # # Concatenate these images for ease of display using cv2.hconcat()
 # finalr = cv2.hconcat([eight_bit_img, seven_bit_img])
